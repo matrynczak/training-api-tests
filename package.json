@@ -9,7 +9,7 @@
     "test": "yarn pretest && ./node_modules/mocha/bin/mocha",
     "test:allure": "yarn pretest && sleep 1 && multi='progress=- mocha-allure-reporter=-' mocha --reporter mocha-multi",
     "report": "allure generate --clean",
-    "lint": "./node_modules/.bin/eslint ./"
+    "format": "yarn eslint"
   },
   "dependencies": {
     "allure-commandline": "^2.13.8",
@@ -26,7 +26,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn eslint"
+      "pre-commit": "echo \\”[Husky] pre-commit\\”"
     }
   }
 }
