@@ -21,12 +21,9 @@
     "mocha-allure-reporter": "^1.4.0",
     "mocha-multi": "^1.1.5"
   },
-  "devDependencies": {
-    "pinst": "^2.1.6"
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \\”[Husky] pre-commit\\”"
+      "pre-commit": "echo \"[Husky] pre-commit\""
     }
   }
 }
