@@ -3,3 +3,8 @@
 /node_modules
 
 .husky
+
+/allure-results
+
+/allure-report
+
