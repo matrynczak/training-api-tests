@@ -2,22 +2,9 @@ import chai from 'chai';
 import axios from 'axios';
 import mocha from "mocha";
 import {apiUrl} from "../config/api.js";
-import {randomNumFromRange} from "../help/methods.js";
+import {newPost, postKeys} from "./test-data/posts.js";
 
 const expect = chai.expect;
-
-const newPost = {
-    title: 'TEST',
-    body: 'TEST',
-    userId: randomNumFromRange(1,10)
-};
-
-const postKeys = [
-    'userId',
-    'id',
-    'title',
-    'body'
-];
 
 mocha.describe('Tests of posts endpoint', () => {
 
