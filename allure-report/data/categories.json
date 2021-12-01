@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 200 to equal 201",
+      "children" : [ {
+        "name" : "should get the list of posts with code 200",
+        "uid" : "3eca09853d639b42",
+        "parentUid" : "c18a28188a73f24b708bf96f85ad58fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638385952183,
+          "stop" : 1638385952322,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c18a28188a73f24b708bf96f85ad58fe"
+    }, {
+      "name" : "expected { Object (id, name, ...) } to deeply equal { Object (id, name, ...) }",
+      "children" : [ {
+        "name" : "should get the user with attributes",
+        "uid" : "93dd12d176bddf5c",
+        "parentUid" : "89350ea92bef3a20a578a82650283fb7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638385953071,
+          "stop" : 1638385953171,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89350ea92bef3a20a578a82650283fb7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

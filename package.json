@@ -4,9 +4,29 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "pretest": "rm -rf allure-results",
+    "test": "yarn pretest && ./node_modules/mocha/bin/mocha",
+    "test:allure": "yarn pretest && sleep 1 && multi='progress=- mocha-allure-reporter=-' mocha --reporter mocha-multi",
+    "report": "allure generate --clean",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
   "dependencies": {
+    "allure-commandline": "^2.13.8",
     "axios": "^0.24.0",
     "chai": "^4.3.4",
-    "mocha": "^9.1.3"
+    "eslint": "^8.3.0",
+    "husky": "^7.0.4",
+    "mocha": "^9.1.3",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-multi": "^1.1.5"
+  },
+  "devDependencies": {
+    "pinst": "^2.1.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
   }
 }

@@ -1,0 +1,46 @@
+{
+  "uid" : "95b1b204987fd821",
+  "name" : "should create new post with response status 201",
+  "fullName" : "Tests of posts endpoint.should create new post with response status 201",
+  "historyId" : "3bec6e231068bf1ac3dca1ba6b5e3195",
+  "time" : {
+    "start" : 1638385952323,
+    "stop" : 1638385952601,
+    "duration" : 278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Tests of posts endpoint"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests of posts endpoint"
+  }, {
+    "name" : "testMethod",
+    "value" : "should create new post with response status 201"
+  }, {
+    "name" : "package",
+    "value" : "Tests of posts endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95b1b204987fd821.json",
+  "parameterValues" : [ ]
+}

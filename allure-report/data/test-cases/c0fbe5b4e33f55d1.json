@@ -1,0 +1,46 @@
+{
+  "uid" : "c0fbe5b4e33f55d1",
+  "name" : "should get the list of users with code 200",
+  "fullName" : "Tests of users endpoint.should get the list of users with code 200",
+  "historyId" : "a05458058ce2375516971491bcd8488f",
+  "time" : {
+    "start" : 1638385952769,
+    "stop" : 1638385952879,
+    "duration" : 110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Tests of users endpoint"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests of users endpoint"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the list of users with code 200"
+  }, {
+    "name" : "package",
+    "value" : "Tests of users endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0fbe5b4e33f55d1.json",
+  "parameterValues" : [ ]
+}

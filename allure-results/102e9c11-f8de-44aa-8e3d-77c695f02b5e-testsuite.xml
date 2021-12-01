@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638385998650' stop='1638386000234'>
+    <name>Tests of users endpoint</name>
+    <title>Tests of users endpoint</title>
+    <test-cases>
+        <test-case start='1638385998650' status='passed' stop='1638385998763'>
+            <name>should get the list of users with code 200</name>
+            <title>should get the list of users with code 200</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385998764' status='passed' stop='1638385998869'>
+            <name>should return list of 10 users as objects</name>
+            <title>should return list of 10 users as objects</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385998870' status='passed' stop='1638385998988'>
+            <name>should respond with 404 for incorrect users endpoint</name>
+            <title>should respond with 404 for incorrect users endpoint</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385998988' status='passed' stop='1638385999085'>
+            <name>should get the user with attributes</name>
+            <title>should get the user with attributes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385999085' status='passed' stop='1638385999192'>
+            <name>should get the user with keys</name>
+            <title>should get the user with keys</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385999192' status='passed' stop='1638385999458'>
+            <name>should create new user by POST request with status 201</name>
+            <title>should create new user by POST request with status 201</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385999459' status='passed' stop='1638385999836'>
+            <name>should modify user by PATCH request with status 200</name>
+            <title>should modify user by PATCH request with status 200</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638385999836' status='passed' stop='1638386000135'>
+            <name>should remove the user with DELETE</name>
+            <title>should remove the user with DELETE</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1638386000136' status='passed' stop='1638386000233'>
+            <name>should return posts written by user</name>
+            <title>should return posts written by user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

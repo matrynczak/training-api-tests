@@ -1,0 +1,46 @@
+{
+  "uid" : "ee80578dec3450d8",
+  "name" : "should get the list of posts with proper keys for each",
+  "fullName" : "Tests of posts endpoint.should get the list of posts with proper keys for each",
+  "historyId" : "66cd2cb655e97ca121105cd421e4278",
+  "time" : {
+    "start" : 1638385952601,
+    "stop" : 1638385952762,
+    "duration" : 161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Tests of posts endpoint"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests of posts endpoint"
+  }, {
+    "name" : "testMethod",
+    "value" : "should get the list of posts with proper keys for each"
+  }, {
+    "name" : "package",
+    "value" : "Tests of posts endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee80578dec3450d8.json",
+  "parameterValues" : [ ]
+}
